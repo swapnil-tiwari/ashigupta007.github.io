@@ -1,0 +1,256 @@
+html, body
+{
+	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
+}
+.menu
+{
+	position: fixed;
+	left: 0px;
+	top: 0;
+	background-color:#131F25;
+	border-right:1px solid #131F25;
+	height: 100%;
+	color: white;
+	text-align: center;
+	z-index: 5;
+}
+.menu-content
+{
+	list-style: none;
+	margin-left: -15px;
+	padding-right: 15px;
+	margin-top: 100px;
+}
+.menu-content a, .menu-footer a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	-webkit-transition:all 0.25s;
+}
+.menu-content a:hover
+{
+	color: #D77A61;
+	text-decoration: none;
+}
+.menu-content .menu-item li
+{
+	margin-top: 20px;
+}
+.menu-footer
+{
+	list-style: none;
+	margin-left: -10px;
+	padding-right: 15px;
+	margin-top: 100px;
+	font-size: 25px;
+	position: absolute;
+	bottom: 0px;
+}
+.menu-footer li
+{
+	margin-top: 10px;
+}
+.main-cont
+{
+	text-align: center;
+	border: 1px solid transparent;
+	height:100%;
+	width: 100%;
+	background: url(../images/bg5.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+.clip-text h1
+{
+	font-size: 65px;
+	font-weight: bolder;
+}
+.clip-text
+{
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(../images/bg6.jpg);
+    background-size: auto 500px;
+    -webkit-animation-name:marquee;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-duration:10s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes marquee {
+  0% 
+  {
+    background-position: 0;
+  }
+
+  33% 
+  {
+    background-position: -100px;
+  }
+  66%
+  {
+   background-position: -100px 50px;	
+  }
+  100%
+  {
+   background-position: 0px 0px;	
+  }
+}
+.hr
+{
+	border: 0px;
+	border-bottom: 2px solid #223843;
+	width: 30%;
+}
+.specification
+{
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	letter-spacing: 7px;
+	word-spacing: 15px;
+}
+.btn-sml
+{
+	background-color: transparent;
+	border: 2px solid #223843;
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 1px;
+	margin-top: 20px;
+	-webkit-transition:all 0.4s;
+}
+.btn-sml:focus
+{
+	outline: none;
+}
+.btn-sml:hover
+{
+	background-color: #223843;
+	color: white;
+}
+.quote
+{
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #454545;
+}
+.menu-head
+{
+	background-color: #0D1418;
+	list-style: none;
+	margin-left: 0px;
+	padding-right:0px;
+	padding-left:0px;
+	padding: 20px;
+	-webkit-transition:all 0.5s;
+}
+.menu-head a
+{
+	color: #FCBA04;
+	font-size: 25px;
+	-webkit-transition:all 0.5s;
+}
+.menu-head a:hover
+{
+	color: #FCBA04;
+}
+.menu-txt
+{
+	font-size: 8px;
+	color: #FCBA04;
+	font-family: 'Comfortaa', cursive;
+	word-spacing: 3px;
+	margin-top: 5px;
+}
+/*.overlayer2
+{
+	z-index: 4;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color:#0C1316;
+	color: white;
+	text-align: center;
+}
+.overlayer2 h1
+{
+	margin-top: 20%;
+}
+.col-sm-4
+{
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	padding: 20px;
+}
+.col-sm-4 h1
+{
+	font-size: 22px;
+}
+.phn
+{
+	margin-left: 0px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	height: 100px;
+	padding: 10px;
+}
+.phn p
+{
+	font-size: 15px;
+	margin-top: 10px;
+	font-weight: bold;
+	display: inline-block;
+}*/
+.main-cont-2
+{
+	background-color:#101b21;
+	min-height: 100%;
+	padding: 20px;
+	color: white;
+}
+.main-cont-2 h1
+{
+	font-family: 'Comfortaa', cursive !important;
+	word-spacing: 20px;
+	letter-spacing: 10px;
+	font-size: 25px;
+}
+.lg-m
+{
+	font-family: 'Comfortaa', cursive !important;
+	font-size: 60px;
+	color: white;
+}
+.lg-m font
+{
+	color: #FF6A6A;
+}
+.xlg
+{
+	font-family: 'Comfortaa', cursive !important;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+}
+.round-circle
+{
+	height: 30px;
+	width: 30px;
+	border:7px solid #1874CD;
+	border-radius: 10px;
+	display: inline-block;
+}
+.profile-cont
+{
+	padding: 30px;
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive !important;
+	line-height: 40px;
+}
