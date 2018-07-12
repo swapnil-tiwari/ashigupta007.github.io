@@ -28,7 +28,7 @@
 				<div class="profile-cont">
 					A Fullstack web developer, working as a freelancer. Also a tech enthusiast trying to learn about technologies and exploring them atmost. I am in the development field since 2014 and since then I am learing everyday.<br>
 					Technologies like Augmented reality and virtual reality have fascinated me the most. I love making new designs, playing with colors, creating new codes and also loves to play with arduino and raspberrypi.<br>
-					Everything that I make has a Perfection inbuilt and with perfection there also comes "Quality" of Supreme Class
+					Everything that I make has a Perfection inbuilt and with perfection there also comes "Quality" of Supreme Class.
 				</div>
 			</div>
 			<div class="col-sm-6">
