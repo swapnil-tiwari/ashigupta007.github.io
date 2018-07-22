@@ -11,23 +11,43 @@ $("#top-image").mousemove(function(e){
 });
 });
 
+
     $("#home").click(function()
     {
-        $("#main-view").load("/index.php");
+        $(document).ready(function(){
+
+        $("#main-view").load("new/index.php");
+        });
     });
+
+
     $("#profile").click(function()
     {
+        $(document).ready(function(){
         $("#main-view").load("pages/profile.php");
     });
+});
+
+
     $("#skills").click(function()
     {
+        $(document).ready(function(){
         $("#main-view").load("pages/skills.php");
     });
+});
+
+
     $("#work").click(function()
     {
+        $(document).ready(function(){
         $("#main-view").load("pages/work.php");
     });
+});
+
     $("#contact").click(function()
     {
+        $(document).ready(function(){
         $("#main-view").load("pages/contact.php");
     });
+});
+

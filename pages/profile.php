@@ -24,14 +24,16 @@
 		<div class="main-cont-2">
 		<h1>Profile <i class="fab fa-black-tie"></i></h1>
 		<div class="row" style="margin-top: 30px;">
-			<div class="col-sm-6">
+			<div class="col-sm-6" id="content">
 				<div class="profile-cont">
 					A Fullstack web developer, working as a freelancer. Also a tech enthusiast trying to learn about technologies and exploring them atmost. I am in the development field since 2014 and since then I am learing everyday.<br>
 					Technologies like Augmented reality and virtual reality have fascinated me the most. I love making new designs, playing with colors, creating new codes and also loves to play with arduino and raspberrypi.<br>
 					Everything that I make has a Perfection inbuilt and with perfection there also comes "Quality" of Supreme Class.
+					<br><br>
+					<div class="round-circle"></div><div class="round-circle" style="border-color: #FF6A6A; margin-left: 20px;"></div>
 				</div>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-6" id="large">
 				<p class="lg-m">Hello <font>,</font> I am</p>
 				<div class="xlg">ASHISH GUPTA <div class="round-circle"></div></div>
 			</div>

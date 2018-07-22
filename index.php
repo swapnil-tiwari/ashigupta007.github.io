@@ -71,11 +71,14 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Comfortaa" rel="stylesheet">
 
     <script type="text/javascript" src="js/app.js"></script>
 	<script>
+		$(document).ready(function(){
 		 $("#main-view").load("pages/main.php");
+		});
 	</script>
 
-	<link href="https://fonts.googleapis.com/css?family=Caveat|Comfortaa" rel="stylesheet">
+	
 </html>
