@@ -67,20 +67,23 @@ html, body
 }
 .clip-text h1
 {
-	font-size: 65px;
-	font-weight: bolder;
+	
 }
 .clip-text
 {
-	-webkit-background-clip: text;
+	font-size: 65px;
+	font-weight: bolder;
+	color:#223843; 
+	background-clip: text;
+	-webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent;
-    background-image: url(../images/bg6.jpg);
-    background-size: auto 500px;
-    -webkit-animation-name:marquee;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-duration:10s;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-timing-function: linear;
+    background-image: url('../images/bg6.jpg')!important;
+    background-size: auto 500px !important;
+    -webkit-animation-name:marquee !important;
+    -webkit-animation-iteration-count:infinite !important;
+    -webkit-animation-duration:10s !important;
+    -webkit-animation-direction: alternate !important;
+    -webkit-animation-timing-function: linear !important;
 }
 @-webkit-keyframes marquee {
   0% 
@@ -365,4 +368,31 @@ html, body
 	font-weight: bolder;
 	background-color: #CD3333;
 	text-shadow: 7px 7px 15px rgba(0,0,0,0.4);
+}
+.work
+{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+.work h4
+{
+	color: #D77A61;
+}
+.work img
+{
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 2px solid white;
+	padding: 10px;
+}
+.work p
+{
+	font-size: 13px;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	margin-top: 20px;
 }
